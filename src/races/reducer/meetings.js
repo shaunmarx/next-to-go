@@ -1,10 +1,6 @@
 import * as types from '../actionTypes';
 import { combineReducers } from 'redux';
 
-var INITIAL_STATE = {
-    byId: {}
-};
-
 var setMeetings = (state,  { payload }) =>{
     let { meetings } = payload;
     return { 

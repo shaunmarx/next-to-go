@@ -1,8 +1,7 @@
-import { PropTypes } from 'react'
-import styled, { css } from 'styled-components'
+import { css } from 'styled-components'
 import { compose, setDisplayName, componentFromProp, defaultProps } from 'recompose';
 import enhancers from "../../enhancers";
-import { space, width, fontSize, color } from 'styled-system'
+import { space, fontSize, color } from 'styled-system'
 
 var transformCapitilize = css`
   text-transform: caitalize;

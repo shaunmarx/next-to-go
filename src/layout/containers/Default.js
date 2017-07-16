@@ -1,7 +1,5 @@
-import React from 'react';
 import DefaultLayout from '../components/Default';
 import { connect } from 'react-redux';
-import { Redirect } from 'react-router';
 import { compose, setDisplayName } from 'recompose';
 
 var mapStateToProps = (state) => { 

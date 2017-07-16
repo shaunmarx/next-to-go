@@ -1,6 +1,5 @@
 import React from 'react';
 import { Flex } from 'grid-styled';
-import Typography from '../../../components/Typography';
 import styled from 'styled-components';
 import { space } from "styled-system";
 

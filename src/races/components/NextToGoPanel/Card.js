@@ -1,11 +1,9 @@
 import React from 'react';
-import styled, { css, keyframes } from 'styled-components';
-import { Flex, Box } from 'grid-styled';
-import { space } from 'styled-system'
+import styled, { css } from 'styled-components';
+import { Flex } from 'grid-styled';
 import Typography from '../../../components/Typography';
 import { normalizeString } from '../../../utils/string';
 import TimeAgo from 'react-timeago';
-import classNames from 'classnames';
 import { Animation } from 'styled-animation';
 import { darken } from 'polished';
 

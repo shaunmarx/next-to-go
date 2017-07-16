@@ -1,5 +1,4 @@
-import { curry, compose } from 'ramda';
-import config from '../config';
+import { curry } from 'ramda';
 
 var getClientDefaults = () =>{
     var headers = new Headers();
@@ -18,7 +17,7 @@ var client = (baseUrl, fetchClient) =>{
  
     var fetchJsonResponse = curry((resource, settings) => fetchClient( `${baseUrl}${resource}`, settings)
         .then(response => {
-            if(response.status == 204)
+            if(response.status === 204)
                 return [];
 
             return response.json();

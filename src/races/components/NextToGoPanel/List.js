@@ -1,10 +1,6 @@
 import React from 'react';
-import styled from 'styled-components';
-import { Flex, Box } from 'grid-styled';
+import { Flex } from 'grid-styled';
 import Card from './Card';
-import { width, space } from  'styled-system';
-import Typography from '../../../components/Typography';
-
 
 const List = ({className, races, meetings}) => { 
     var cards = races.map(race => (

@@ -1,8 +1,6 @@
 import React from 'react';
-import styled from 'styled-components';
-import { Flex, Box } from 'grid-styled';
+import { Flex } from 'grid-styled';
 import Typography from '../../../components/Typography';
-import { space } from "styled-system";
 import PanelTitle from './PanelTitle';
 
 const CardGroup = ({className, title, children}) =>{

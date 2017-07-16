@@ -1,5 +1,5 @@
 import { createSelector } from 'reselect';
-import {  props, map, curry, filter } from 'ramda';
+import { curry, filter } from 'ramda';
 import { name } from './constants';
 import { parse, differenceInSeconds } from 'date-fns';
 

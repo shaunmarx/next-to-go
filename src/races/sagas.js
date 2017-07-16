@@ -1,4 +1,4 @@
-import { call, put, takeEvery, takeLatest, select, take, fork } from 'redux-saga/effects';
+import { call, put, takeLatest, select, fork } from 'redux-saga/effects';
 import { delay } from 'redux-saga';
 
 import * as selectors from './selectors';
@@ -11,7 +11,9 @@ export function* evaluateRaceCompletion(){
     while(true){
         const state = yield select();
         var races = selectors.getRacesForCompletion(state);
-        for(var i=0; i < races.length; i++){
+        var i =0;
+
+        for(i=0; i < races.length; i++){
             let race = races[i];
             if(race.completed){
                 continue;
@@ -21,7 +23,7 @@ export function* evaluateRaceCompletion(){
 
         var imminent = selectors.getImminentRaces(state);
 
-        for(var i=0; i < imminent.length; i++){
+        for(i=0; i < imminent.length; i++){
             let imminentRace = imminent[i];
             if(imminentRace.imminent)
                 continue;

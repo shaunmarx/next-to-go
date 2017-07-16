@@ -1,11 +1,5 @@
 import * as types from '../actionTypes';
 import { combineReducers } from 'redux';
-import { curry, sortBy } from 'ramda';
-
-var INITIAL_STATE = {
-    byId: {},
-    allIds: []
-};
 
 const setRaces = (state, {payload}) =>{
     let { races } = payload;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Box } from 'grid-styled';
+import { Flex } from 'grid-styled';
 import List from './List';
 import Typography from '../../../components/Typography';
 import PanelTitle from './PanelTitle';
