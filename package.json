@@ -1,0 +1,47 @@
+{
+  "name": "next-to-go",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "date-fns": "^1.28.5",
+    "grid-styled": "^2.0.0-8",
+    "history": "^4.6.3",
+    "normalize.css": "^7.0.0",
+    "normalizr": "^3.2.3",
+    "polished": "^1.3.0",
+    "prop-types": "^15.5.10",
+    "ramda": "^0.24.1",
+    "ramda-fantasy": "^0.8.0",
+    "react": "^15.6.1",
+    "react-addons-css-transition-group": "^15.6.0",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "react-router": "^4.1.1",
+    "react-router-redux": "alpha",
+    "react-scripts": "1.0.10",
+    "react-timeago": "3.2.1",
+    "recompose": "^0.23.5",
+    "redux": "^3.7.1",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^0.15.4",
+    "redux-thunk": "^2.2.0",
+    "reduxsauce": "^0.5.0",
+    "reselect": "^3.0.1",
+    "styled-animation": "^1.0.3",
+    "styled-components": "^2.1.1",
+    "typeface-roboto": "^0.0.31"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "engines": {
+    "node": ">=6.11.0 < 8.2",
+    "yarn": ">=0.23.4",
+    "npm": ">=3.x"
+  },
+  "proxy": "https://api.beta.tab.com.au/v1/tab-info-service"
+}
